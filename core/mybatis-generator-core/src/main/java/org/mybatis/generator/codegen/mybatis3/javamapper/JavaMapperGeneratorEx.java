@@ -79,15 +79,12 @@ public class JavaMapperGeneratorEx extends JavaMapperGenerator {
         }
         //change order
         addSelectByPrimaryKeyMethod(interfaze);
-
-        addUpdateByPrimaryKeySelectiveMethod(interfaze);
-        addUpdateByPrimaryKeyWithBLOBsMethod(interfaze);
         addUpdateByPrimaryKeyWithoutBLOBsMethod(interfaze);
-
         addInsertMethod(interfaze);
-
         addDeleteByPrimaryKeyMethod(interfaze);
 
+        addUpdateByPrimaryKeyWithBLOBsMethod(interfaze);
+        addUpdateByPrimaryKeySelectiveMethod(interfaze);
         addCountByExampleMethod(interfaze);
         addDeleteByExampleMethod(interfaze);
         addInsertSelectiveMethod(interfaze);
@@ -137,15 +134,12 @@ public class JavaMapperGeneratorEx extends JavaMapperGenerator {
 
             //change order
             addSelectByPrimaryKeyElement(answer);
-
-            addUpdateByPrimaryKeySelectiveElement(answer);
-            addUpdateByPrimaryKeyWithBLOBsElement(answer);
             addUpdateByPrimaryKeyWithoutBLOBsElement(answer);
-
             addInsertElement(answer);
             addDeleteByPrimaryKeyElement(answer);
 
-
+            addUpdateByPrimaryKeySelectiveElement(answer);
+            addUpdateByPrimaryKeyWithBLOBsElement(answer);
             addResultMapWithoutBLOBsElement(answer);
             addResultMapWithBLOBsElement(answer);
             addExampleWhereClauseElement(answer);
