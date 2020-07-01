@@ -1,4 +1,4 @@
-
+Deprecated, don't make changes to this repo anymore. Use another newer repo instead!!
 
 
 1. add a plugin named CustomizeNames.java
